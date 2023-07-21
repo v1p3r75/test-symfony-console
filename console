@@ -1,0 +1,12 @@
+#!/bin/env php
+<?php
+
+require __DIR__. "/vendor/autoload.php";
+
+
+use Symfony\Component\Console\Application;
+
+$console = new Application("Console", "0.0.1");
+
+
+$console->run();
